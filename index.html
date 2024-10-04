@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--meta tag-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--css link-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<title>Form</title>
+
+</head>
+<body>
+
+	<div class="container">
+
+<form class="row g-3 needs-validation" novalidate>
+
+  <div class="col-md-6">
+    <label for="first_name" class="form-label">First name</label>
+    <input type="text" class="form-control first_name" id="first_name" name="first_name" placeholder="Enter Your Fast Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+       Enter Your First name
+     </div>
+  </div>
+
+  <div class="col-md-6">
+    <label for="last_name" class="form-label">Last name</label>
+    <input type="text" class="form-control last_name" id="last_name" name="last_name" placeholder="Enter Your Last Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+       Enter Your Last name
+     </div>
+  </div>
+
+   <div class="col-md-12">
+    <label for="email" class="form-label">Email Addres</label>
+    <input type="text" class="form-control email" id="email" name="email" placeholder="Enter Your Email Adress" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+       Enter Your Email Address
+     </div>
+  </div>
+
+<div class="col-md-12">
+    <label for="passward" class="form-label">Email Addres</label>
+    <input type="text" class="form-control passward" id="passward" name="passward" placeholder="Enter Your Valid Passward" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+      Enter Your Valid Passward
+     </div>
+  </div>
+
+  <div class="col-md-12">
+    <label for="m_number" class="form-label">Mobile Number</label>
+    <input type="text" class="form-control m_number" id="m_number" name="m_number" placeholder="Enter Your Mobile Number" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+      Enter Your Mobile Number
+     </div>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+	</div>
+
+	 <!--Js link-->	
+	 <script src="js/bootstrap.bundle.min.js"></script>
+	 <script src="js/script.js"></script>
+</body>
+</html>
